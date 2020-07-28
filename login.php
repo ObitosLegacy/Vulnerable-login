@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect('localhost', 'virtualarity_com_Virtualarity', 'oeq6J8hyskUm', 'Virtualarity') or die (mysqli_connect_error);
+    $conn = mysqli_connect('localhost', 'virtualarity_com_Virtualarity', 'oeq6J8hyskUm', 'virtualarity_com_Virtualarity') or die (mysqli_connect_error);
 
     $email = $_POST['email'];
     $pass = $_POST['pass'];
