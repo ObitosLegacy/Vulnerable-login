@@ -4,7 +4,7 @@
     $email = $_POST['email'];
     $pass = $_POST['pass'];
 
-    $query = "SELECT ID FROM vulnerableLogin WHERE members.email='$email' AND members.pass='$pass'";
+    $query = "SELECT ID FROM vulnerableLogin WHERE mail='$email' AND pass='$pass'";
 
     $result = mysqli_query($conn, $query);
 
