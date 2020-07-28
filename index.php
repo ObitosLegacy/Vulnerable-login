@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body class="body">
-    <form action="login.php" method="POST" class="form flex">
+    <form action="https://vulnerablelogin.herokuapp.com/login.php" method="POST" class="form flex">
         <fieldset class="fieldset flex">
             <legend class="legend">&nbspLogin</legend>
             <label for="email" class="label">email</label>
