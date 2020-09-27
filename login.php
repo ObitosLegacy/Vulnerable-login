@@ -11,7 +11,7 @@
     $num = mysqli_num_rows($result);
 
     if($num > 0) {
-        header('location: ./fd3h2fr783209ry32rh3209r87g32frfhj923f03208hf.html');
+        header('location: ./fd3h2fr783209ry32rh3209r87g32frfhj923f03208hf.php');
     } else {
         header('location: ./index.php');
     }
