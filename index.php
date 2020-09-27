@@ -10,7 +10,7 @@
 </head>
 <body class="body">
   
-    <form action="https://vulnerablelogin.herokuapp.com/login.php" method="POST" class="form flex" onclick="checkInput(event)" >
+    <form action="./login.php" method="POST" class="form flex" onclick="checkInput(event)" >
     <div class="advertisment">
         Learn Hacking <i class="green">@</i><i class="purple">virtualarity.com</i>
     </div>

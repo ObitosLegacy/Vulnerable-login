@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin:250px auto;
+    margin:220px auto;
     box-shadow: 5px 5px 10px hsl(220, 100%, 5%);
     border-radius: 15px;
 }
@@ -124,8 +124,9 @@
 
 .advertisment {
     position: absolute;
-    top: 100px;
+    top: 35px;
     width: 40%;
+	min-width: 300px;
     text-align: center;
     line-height: 70px;
     color: white;
@@ -144,8 +145,8 @@
 }
 
 @keyframes advertisment {
-    from {width: 40%;}
-    to {width: 20%;}
+    from {width: 400px;}
+    to {width: 300px;}
     from {letter-spacing: 10px;}
     to {letter-spacing: 0px;}
 }
